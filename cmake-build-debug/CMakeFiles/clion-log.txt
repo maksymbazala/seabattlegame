@@ -1,0 +1,67 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/maksymbazala/C++/seabattlegame
+-- COCOS2DX_ROOT_PATH:/Users/maksymbazala/C++/seabattlegame/cocos2d
+-- CMAKE_MODULE_PATH:/Users/maksymbazala/C++/seabattlegame/cocos2d/cmake/Modules/
+-- COCOS_EXTERNAL_DIR:/Users/maksymbazala/C++/seabattlegame/cocos2d/external
+-- ENGINE_BINARY_PATH:/Users/maksymbazala/C++/seabattlegame/cmake-build-debug/engine
+-- CMAKE_BUILD_TYPE: Debug
+-- It appears you are building natively for Mac OSX with AppleClang
+-- chipmunk CHIPMUNK_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/chipmunk/include
+-- chipmunk CHIPMUNK_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/chipmunk/prebuilt/mac/libchipmunk.a
+-- curl CURL_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/curl/include/mac
+-- curl CURL_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/curl/prebuilt/mac/libcurl.a
+-- freetype2 FREETYPE_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/freetype2/include/mac/freetype2
+-- freetype2 FREETYPE_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/freetype2/prebuilt/mac/libfreetype.a
+-- jpeg JPEG_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/jpeg/include/mac
+-- jpeg JPEG_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/jpeg/prebuilt/mac/libjpeg.a
+-- png PNG_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/png/include/mac
+-- png PNG_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/png/prebuilt/mac/libpng.a
+-- tiff TIFF_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/tiff/include/mac
+-- tiff TIFF_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/tiff/prebuilt/mac/libtiff.a
+-- webp WEBP_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/webp/include/mac
+-- webp WEBP_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/webp/prebuilt/mac/libwebp.a
+-- websockets WEBSOCKETS_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/websockets/include/mac
+-- websockets WEBSOCKETS_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/websockets/prebuilt/mac/libwebsockets.a
+-- openssl OPENSSL_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/openssl/include/mac
+-- openssl OPENSSL_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/openssl/prebuilt/mac/libssl.a;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/openssl/prebuilt/mac/libcrypto.a
+-- bullet BULLET_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/include;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/include/bullet
+-- bullet BULLET_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/prebuilt/mac/libBulletDynamics.a;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/prebuilt/mac/libBulletCollision.a;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/prebuilt/mac/libBulletMultiThreaded.a;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/prebuilt/mac/libLinearMath.a;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/prebuilt/mac/libMiniCL.a
+-- Box2D Box2D_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/Box2D/include
+-- Box2D Box2D_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/Box2D/prebuilt/mac/libbox2d.a
+-- glfw3 GLFW3_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/glfw3/include/mac
+-- glfw3 GLFW3_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/glfw3/prebuilt/mac/libglfw3.a
+-- zlib ZLIB_INCLUDE_DIRS: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/zlib/include
+-- zlib ZLIB_LIBRARIES: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/zlib/prebuilt/mac/libz.a
+-- OpenGL include dirs: /System/Library/Frameworks/OpenGL.framework
+-- SQLite3 include dirs: /Library/Frameworks/Mono.framework/Headers
+-- GLFW3 include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/glfw3/include/mac
+-- Freetype include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/freetype2/include/mac/freetype2
+-- Recast include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/recast
+-- TinyXML2 include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/tinyxml2
+-- ZLIB include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/zlib/include
+-- MINIZIP include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/unzip;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/zlib/include
+-- JPEG include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/jpeg/include/mac
+-- TIFF include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/tiff/include/mac
+-- PNG include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/png/include/mac
+-- WEBSOCKETS include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/websockets/include/mac
+-- CURL include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/curl/include/mac
+-- Flatbuffers include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external
+-- xxhash include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/xxhash
+-- WebP include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/webp/include/mac
+-- Chipmunk include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/chipmunk/include
+-- bullet include dirs: /Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/include;/Users/maksymbazala/C++/seabattlegame/cocos2d/external/bullet/include/bullet
+-- cocos2d prepare to use cpp needed libs: GLFW3;ZLIB;MINIZIP;TinyXML2;FREETYPE;WEBSOCKETS;CURL;FLATBUFFERS;XXHASH;OPENSSL;JPEG;WEBP;TIFF;PNG;CHIPMUNK;BULLET;RECAST
+-- Configuring done
+CMake Error at cocos2d/cocos/CMakeLists.txt:122 (add_library):
+  Cannot find source file:
+
+    ../../Classes/Logotype.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at cocos2d/cocos/CMakeLists.txt:122 (add_library):
+  No SOURCES given to target: cocos2d
+
+
+-- Build files have been written to: /Users/maksymbazala/C++/seabattlegame/cmake-build-debug

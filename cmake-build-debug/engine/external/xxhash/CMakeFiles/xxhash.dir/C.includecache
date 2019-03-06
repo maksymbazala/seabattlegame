@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maksymbazala/C++/seabattlegame/cocos2d/external/xxhash/xxhash.c
+xxhash.h
+/Users/maksymbazala/C++/seabattlegame/cocos2d/external/xxhash/xxhash.h
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/Users/maksymbazala/C++/seabattlegame/cocos2d/external/xxhash/xxhash.h
+
