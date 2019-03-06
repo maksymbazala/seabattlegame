@@ -204,7 +204,7 @@ void BattleScene::randomShot()
         
         if (damagedDeckers.size() == 0)
         {
-            Utils::log(ERROR, "Random shot size.");
+            Utils::log(ERR, "Random shot size.");
             return;
         }
         
@@ -376,7 +376,7 @@ void BattleScene::randomShot()
     }
     
     if (randomX < 0 || randomX > 9 || randomY < 0 || randomY > 9)
-        Utils::log(ERROR, "Incorrect random coords provided.");
+        Utils::log(ERR, "Incorrect random coords provided.");
     
     shot(randomX, randomY);
 }
@@ -587,7 +587,7 @@ void BattleScene::renderFieldAction(unsigned int x, unsigned int y, unsigned int
             
         default:
         {
-            Utils::log(ERROR, "Incorrect Field Action.");
+            Utils::log(ERR, "Incorrect Field Action.");
             break;
         }
     }
@@ -619,7 +619,7 @@ void BattleScene::playSoundEffect(int action)
             
         default:
         {
-            Utils::log(ERROR, "Incorrect action to play sound effect");
+            Utils::log(ERR, "Incorrect action to play sound effect");
             break;
         }
     }

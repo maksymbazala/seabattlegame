@@ -187,7 +187,7 @@ void GameOverScene::renderEffectsOnField(Actor* actor)
                     
                 default:
                 {
-                    Utils::log(ERROR, ("Cannot render effect. Coords: Y " + std::to_string(i) + ", X " + std::to_string(j)));
+                    Utils::log(ERR, ("Cannot render effect. Coords: Y " + std::to_string(i) + ", X " + std::to_string(j)));
                     break;
                 }
             }

@@ -215,7 +215,7 @@ bool PlacingShipsScene::createPlayers(bool isRealPlayer1, bool isRealPlayer2)
 {
     if (isRealPlayer1 && isRealPlayer2)
     {
-        Utils::log(ERROR, "Attempt to start game with > 1 player");
+        Utils::log(ERR, "Attempt to start game with > 1 player");
         return false;
     }
     
@@ -479,7 +479,7 @@ cocos2d::Vec2 PlacingShipsScene::getAlignedPosition(Ship* ship, float targetX, f
     }
     
     else
-        Utils::log(ERROR, "getAlignedPosition");
+        Utils::log(ERR, "getAlignedPosition");
     
     return cocos2d::Vec2(alignedX,alignedY);
 }
