@@ -1,0 +1,6 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj
+-- Configuring done
+CMake Error: CMake can not determine linker language for target: seabattlegame_xcodeproj
+CMake Error: Cannot determine link language for target "seabattlegame_xcodeproj".
+-- Generating done
+-- Build files have been written to: /Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug

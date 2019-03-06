@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="seabattlegame_xcodeproj"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seabattlegame_xcodeproj">
+				<Option output="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/seabattlegame_xcodeproj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/."/>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug"/>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/project.xcworkspace"/>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/xcuserdata"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 seabattlegame_xcodeproj"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seabattlegame_xcodeproj/fast">
+				<Option output="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/seabattlegame_xcodeproj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/."/>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug"/>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/project.xcworkspace"/>
+					<Add directory="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/xcuserdata"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 seabattlegame_xcodeproj/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/CMakeLists.txt">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/CMakeCache.txt">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/Makefile">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/cmake_install.cmake">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/cmake-build-debug/seabattlegame_xcodeproj.cbp">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/project.pbxproj">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/project.xcworkspace/contents.xcworkspacedata">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/project.xcworkspace/xcuserdata/maksymbazala.xcuserdatad/UserInterfaceState.xcuserstate">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/xcuserdata/maksymbazala.xcuserdatad/xcschemes/xcschememanagement.plist">
+			<Option target="seabattlegame_xcodeproj"/>
+		</Unit>
+		<Unit filename="/Users/maksymbazala/C++/seabattlegame/proj.ios_mac/seabattlegame.xcodeproj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
