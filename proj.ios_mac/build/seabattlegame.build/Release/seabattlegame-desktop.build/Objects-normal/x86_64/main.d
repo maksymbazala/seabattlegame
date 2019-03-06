@@ -227,7 +227,6 @@ dependencies: \
   /Users/maksymbazala/C++/seabattlegame/cocos2d/cocos/audio/include/SimpleAudioEngine.h \
   /Users/maksymbazala/C++/seabattlegame/cocos2d/cocos/audio/include/Export.h \
   /Users/maksymbazala/C++/seabattlegame/Classes/AppMacros.h \
-  /Users/maksymbazala/C++/seabattlegame/Classes/HelloWorldScene.h \
   /Users/maksymbazala/C++/seabattlegame/Classes/LogoScene.h \
   /Users/maksymbazala/C++/seabattlegame/Classes/MenuScene.h \
   /Users/maksymbazala/C++/seabattlegame/Classes/PlacingShipsScene.h \

@@ -6,7 +6,6 @@
 #include <vector>
 #include <string>
 
-#include "HelloWorldScene.h"
 #include "LogoScene.h"
 #include "PlacingShipsScene.h"
 
