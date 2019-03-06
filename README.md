@@ -13,3 +13,13 @@
 
 
 *No commercial purposes, just for fun and with love.*
+
+
+**MVP TBD list:**
+UI:
+ * Add custom cursor on Battle Field
+ * Add shadows on ships sprites
+ * Align font size on all buttons labels
+ * Add sprites for pressed-state buttons
+CODE:
+ * Clean up code
