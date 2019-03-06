@@ -18,7 +18,7 @@ CODE:
  * Clean up code
 
 
-\
+
 \
 > Developed by Maksym Bazala using game engine "cocos2d-x v.3.17.1".
 \
