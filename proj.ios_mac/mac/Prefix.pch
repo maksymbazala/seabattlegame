@@ -1,11 +1,3 @@
-//
-// Prefix header for all source files of the 'Paralaxer' target in the 'Paralaxer' project
-//
-
-#ifdef __OBJC__
-	#import <Cocoa/Cocoa.h>
-#endif
-
-#ifdef __cplusplus
-	#include "cocos2d.h"
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cd768915f821dfb5fb0673569b12198fbb874bf1cd7f9cef3eea453a33351a5
+size 204

@@ -1,0 +1,4 @@
+﻿D:\Software\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project '..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj' does not exist.
+  seabattlegame.vcxproj -> D:\Developing\seabattlegame\proj.win32\Debug.win32\seabattlegame.exe
+  Performing Custom Build Step
+  Скопировано файлов: 0.
