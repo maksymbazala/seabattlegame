@@ -25,7 +25,7 @@ void Utils::initLogFile()
     time (&rawtime);
     timeinfo = localtime(&rawtime);
     
-    strftime(buffer,sizeof(buffer),"/Users/maksymbazala/C++/seabattlegamelogs/log_from_%d_%m_%Y__%H_%M_%S.log",timeinfo);
+    strftime(buffer,sizeof(buffer),"/seabattlegamelogs/log_from_%d_%m_%Y__%H_%M_%S.log",timeinfo);
     std::string str(buffer);
     
     logFileName = str;
