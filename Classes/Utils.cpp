@@ -25,7 +25,8 @@ void Utils::initLogFile()
     time (&rawtime);
     timeinfo = localtime(&rawtime);
     
-    strftime(buffer,sizeof(buffer),"/seabattlegamelogs/log_from_%d_%m_%Y__%H_%M_%S.log",timeinfo);
+    //Set absolute path to existing logs folder, you will face a console error, otherwise
+    strftime(buffer,sizeof(buffer),"/<seabattlegame logs folder path>/log_from_%d_%m_%Y__%H_%M_%S.log",timeinfo);
     std::string str(buffer);
     
     logFileName = str;
@@ -47,7 +48,7 @@ void Utils::log(int FieldAction, std::string logMessage)
     
     if (!fout.is_open())
     {
-        std::cout << "\n\n\nLOG WAS NOT SAVED! CHECK THE CORRECTNESS OF PATH TO THE FILE\n\n" << std::endl;
+        std::cout << "\nLOG WAS NOT SAVED! CHECK THE CORRECTNESS OF PATH TO THE FILE\n" << std::endl;
         return;
     }
     
