@@ -16,6 +16,7 @@ UI:
 
 CODE:
  * Clean up code
+ * Make archives (installers)
 
 
 
