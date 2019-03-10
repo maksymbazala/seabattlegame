@@ -19,8 +19,8 @@ private:
     
     bool gameIsOver;
     
-    cocos2d::Sprite* newGameButton;
-    cocos2d::Sprite* exitButton;
+    cocos2d::ui::Button* newGameButton;
+    cocos2d::ui::Button* exitButton;
     
 public:
     static cocos2d::Scene* createScene();

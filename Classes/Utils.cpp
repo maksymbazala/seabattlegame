@@ -65,7 +65,7 @@ void Utils::log(int FieldAction, std::string logMessage)
                 break;
             }
                 
-            case ERROR:
+            case ERR:
             {
                 fout << "\n" << loggerLineCounter << "\tERROR.\t" << logMessage << std::endl << std::endl;
                 break;

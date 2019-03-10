@@ -25,8 +25,8 @@ public:
     CREATE_FUNC(PlacingShipsScene);
     
     cocos2d::Sprite *backgroundImage;
-    cocos2d::Sprite *menuButton;
-    cocos2d::Sprite *playButton;
+    cocos2d::ui::Button *menuButton;
+    cocos2d::ui::Button *playButton;
     cocos2d::TMXTiledMap *field;
     cocos2d::TMXLayer *background;
     cocos2d::Size visibleSize;

@@ -60,8 +60,10 @@
 		C1A30CDB21ECAAAC00BDDA8E /* Effects in Resources */ = {isa = PBXBuildFile; fileRef = C1A30CD921ECAAAC00BDDA8E /* Effects */; };
 		C1A30CE221ECB15A00BDDA8E /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1A30CE021ECB15A00BDDA8E /* Utils.cpp */; };
 		C1A30CE321ECB15A00BDDA8E /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1A30CE021ECB15A00BDDA8E /* Utils.cpp */; };
-		C1A30CE521ECD71F00BDDA8E /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = C1A30CE421ECD71F00BDDA8E /* Buttons */; };
-		C1A30CE621ECD71F00BDDA8E /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = C1A30CE421ECD71F00BDDA8E /* Buttons */; };
+		C1B5A4CC2235974800047ADF /* customCursorPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B5A4CA2235974800047ADF /* customCursorPointer.png */; };
+		C1B5A4CD22359D8100047ADF /* customCursorPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B5A4CA2235974800047ADF /* customCursorPointer.png */; };
+		C1B5A4CF2235ABD600047ADF /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = C1B5A4CE2235ABD600047ADF /* Buttons */; };
+		C1B5A4D02235ACE900047ADF /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = C1B5A4CE2235ABD600047ADF /* Buttons */; };
 		C1C166E921F0F4890096EA7C /* bg_with_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C166E821F0F4880096EA7C /* bg_with_logo.jpg */; };
 		C1C166EA21F0F4890096EA7C /* bg_with_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C166E821F0F4880096EA7C /* bg_with_logo.jpg */; };
 		C1C166EF21FBDD040096EA7C /* Effects in Resources */ = {isa = PBXBuildFile; fileRef = C1A30CD921ECAAAC00BDDA8E /* Effects */; };
@@ -169,7 +171,8 @@
 		C1A30CD921ECAAAC00BDDA8E /* Effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Effects; sourceTree = "<group>"; };
 		C1A30CE021ECB15A00BDDA8E /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		C1A30CE121ECB15A00BDDA8E /* Utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
-		C1A30CE421ECD71F00BDDA8E /* Buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Buttons; sourceTree = "<group>"; };
+		C1B5A4CA2235974800047ADF /* customCursorPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customCursorPointer.png; sourceTree = "<group>"; };
+		C1B5A4CE2235ABD600047ADF /* Buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Buttons; sourceTree = "<group>"; };
 		C1C166E821F0F4880096EA7C /* bg_with_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_with_logo.jpg; sourceTree = "<group>"; };
 		C1C166F021FD0E650096EA7C /* GameOverScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverScene.cpp; sourceTree = "<group>"; };
 		C1C166F121FD0E650096EA7C /* GameOverScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameOverScene.hpp; sourceTree = "<group>"; };
@@ -306,11 +309,12 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C1B5A4CA2235974800047ADF /* customCursorPointer.png */,
 				C1C166E821F0F4880096EA7C /* bg_with_logo.jpg */,
 				C1A0506521ECE5C90099499F /* Field */,
-				C1A30CE421ECD71F00BDDA8E /* Buttons */,
 				C1A30CD921ECAAAC00BDDA8E /* Effects */,
 				C1C1670021FFA6350096EA7C /* Sounds */,
+				C1B5A4CE2235ABD600047ADF /* Buttons */,
 				C1A30CCE21EC983C00BDDA8E /* Ships */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
@@ -470,14 +474,15 @@
 			files = (
 				C1A0506621ECE5C90099499F /* Field in Resources */,
 				C1A30CCF21EC983C00BDDA8E /* Ships in Resources */,
+				C1B5A4CC2235974800047ADF /* customCursorPointer.png in Resources */,
 				C1A30CDB21ECAAAC00BDDA8E /* Effects in Resources */,
 				1A88B2641FC3D9C9005C14AE /* Images.xcassets in Resources */,
 				C1C1670121FFA6350096EA7C /* Sounds in Resources */,
+				C1B5A4CF2235ABD600047ADF /* Buttons in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				C1C166E921F0F4890096EA7C /* bg_with_logo.jpg in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				1AF87B891F6F781D007BE51C /* LaunchScreenBackground.png in Resources */,
-				C1A30CE521ECD71F00BDDA8E /* Buttons in Resources */,
 				1AF87B881F6F781D007BE51C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,12 +493,13 @@
 			files = (
 				C1A30CD021EC983C00BDDA8E /* Ships in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
-				C1A30CE621ECD71F00BDDA8E /* Buttons in Resources */,
 				C1C1670221FFA6350096EA7C /* Sounds in Resources */,
 				C1C166EA21F0F4890096EA7C /* bg_with_logo.jpg in Resources */,
+				C1B5A4D02235ACE900047ADF /* Buttons in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
 				C1A0506721ECE5C90099499F /* Field in Resources */,
+				C1B5A4CD22359D8100047ADF /* customCursorPointer.png in Resources */,
 				C1C166EF21FBDD040096EA7C /* Effects in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,7 @@
 #include <time.h>
 
 #include "cocos2d.h"
+#include "ui/CocosGUI.h"
 
 enum FieldAction {EMPTY = 100, MISS, SHIP, HIT, DESTROYED};
 enum LoggerAction {BASIC = 1000, INFO, ERR};

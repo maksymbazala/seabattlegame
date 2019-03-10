@@ -4,7 +4,6 @@ USING_NS_CC;
 
 Scene* MenuScene::createScene()
 {
-    // 'scene' is an autorelease object
     auto scene = Scene::create();
     auto layer = MenuScene::create();
     
@@ -29,8 +28,9 @@ bool MenuScene::init()
         this->backgroundImage->setPosition(visibleSize.width/2,visibleSize.height/2);
         this->addChild(this->backgroundImage);
         
-        auto play_menu_item = MenuItemImage::create("Buttons/button_play.png", "Buttons/button_play.png", CC_CALLBACK_1(MenuScene::Play, this));
-        auto exit_menu_item = MenuItemImage::create("Buttons/button_exit.png", "Buttons/button_exit.png", CC_CALLBACK_1(MenuScene::Exit, this));
+        auto play_menu_item = MenuItemImage::create("Buttons/default_state/button_play_default.png", "Buttons/pressed_state/button_play_pressed.png", CC_CALLBACK_1(MenuScene::Play, this));
+        
+        auto exit_menu_item = MenuItemImage::create("Buttons/default_state/button_exit_default.png", "Buttons/pressed_state/button_exit_pressed.png", CC_CALLBACK_1(MenuScene::Exit, this));
         
         play_menu_item->setScale(0.2);
         exit_menu_item->setScale(0.2);

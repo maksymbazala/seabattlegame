@@ -25,6 +25,7 @@ private:
     Actor* currentPlayer;
     Actor* enemyPlayer;
     
+    bool customCursorIsDisplayed;
     bool gameIsOver;
     
 public:
@@ -34,7 +35,9 @@ public:
     CREATE_FUNC(BattleScene);
     
     cocos2d::Sprite *backgroundImage;
-    cocos2d::Sprite *menuButton;
+    cocos2d::ui::Button *menuButton;
+    cocos2d::Sprite *customCursor;
+    cocos2d::Action *cursorAnimation;
     cocos2d::TMXTiledMap *playerField;
     cocos2d::TMXTiledMap *enemyField;
     cocos2d::TMXLayer *playerBackground;
@@ -52,6 +55,10 @@ public:
     
     void enableEventListeners();
     void disableEventListeners();
+    void showCustomCursor();
+    void hideCustomCursor();
+    void startCustomCursotAnimation();
+    void stopCustomCursorAnimation();
     void nextTurn();
     void renderFieldAction(unsigned int x, unsigned int y, unsigned int action);
     void playSoundEffect(int action);

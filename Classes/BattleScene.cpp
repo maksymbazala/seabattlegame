@@ -51,10 +51,9 @@ bool BattleScene::init()
     this->addChild(enemyFieldLabel);
     
     //Menu button
-    menuButton = Sprite::create("Buttons/button_menu.png");
-    menuButton->setPosition(visibleSize.width - 150, visibleSize.height - 100);
+    menuButton = cocos2d::ui::Button::create("Buttons/default_state/button_menu_default.png", "Buttons/pressed_state/button_menu_pressed.png");
+    menuButton->setPosition(Vec2(visibleSize.width - 150, visibleSize.height - 100));
     menuButton->setScale(0.2);
-    menuButton->setTag(105);
     this->addChild(menuButton, 0);
     
     //TMX map: player
@@ -89,6 +88,14 @@ bool BattleScene::init()
     enemyMarkup->setTag(109);
     this->addChild(enemyMarkup, 0);
     
+    //Custom "bomb" cursor for hover on enemyField
+    customCursor = Sprite::create("customCursorPointer.png");
+    customCursor->setScale(0.5);
+    customCursor->setRotation(180);
+    customCursor->setOpacity(0);
+    customCursor->setGlobalZOrder(10);
+    this->addChild(customCursor, 0);
+    
     //Auto-shot tooltip
     auto fadeInLabel = FadeIn::create(1.5);
     auto fadeOutLabel = FadeOut::create(1.5);
@@ -115,6 +122,7 @@ bool BattleScene::init()
     currentPlayer = Actor::actorsPool[0];
     enemyPlayer = Actor::actorsPool[1];
     gameIsOver = false;
+    customCursorIsDisplayed = false;
     
     //Start the game
     nextTurn();
@@ -135,6 +143,24 @@ bool BattleScene::init()
             auto clickCoordsY = mouseUp->getLocation().y - (Director::getInstance()->getVisibleSize().height - enemyField->getBoundingBox().getMaxY());
             shot((unsigned int)clickCoordsX/40, (unsigned int)clickCoordsY/40);
         }
+    };
+    
+    mouseClickListener->onMouseMove = [this](cocos2d::Event *event)
+    {
+        EventMouse* mouseMove = dynamic_cast<EventMouse*>(event);
+        
+        customCursor->setPosition(mouseMove->getLocationInView() + Point(0,7));
+        
+        if (!customCursorIsDisplayed && enemyField->getBoundingBox().containsPoint(mouseMove->getLocationInView()))
+        {
+            showCustomCursor();
+        }
+        
+        else if (customCursorIsDisplayed && !enemyField->getBoundingBox().containsPoint(mouseMove->getLocationInView()))
+        {
+            hideCustomCursor();
+        }
+        
     };
     
     keyboardClickListener = EventListenerKeyboard::create();
@@ -383,6 +409,9 @@ void BattleScene::randomShot()
 
 void BattleScene::hit(unsigned int x, unsigned int y)
 {
+    hideCustomCursor();
+    Director::getInstance()->getOpenGLView()->setCursorVisible(false);
+    
     enemyPlayer->updateBattleField(y, x, HIT);
     Utils::log(BASIC, ("Hit on coords - Y: " + std::to_string(y) + ", X: " + std::to_string(x)));
     
@@ -428,6 +457,9 @@ void BattleScene::hit(unsigned int x, unsigned int y)
 
 void BattleScene::miss(unsigned int x, unsigned int y)
 {
+    hideCustomCursor();
+    Director::getInstance()->getOpenGLView()->setCursorVisible(false);
+    
     enemyPlayer->updateBattleField(y, x, MISS);
     renderFieldAction(x, y, MISS);
     playSoundEffect(MISS);
@@ -506,6 +538,40 @@ void BattleScene::enableEventListeners()
 void BattleScene::disableEventListeners()
 {
     Director::getInstance()->getEventDispatcher()->pauseEventListenersForTarget(this);
+}
+
+void BattleScene::showCustomCursor()
+{
+    Director::getInstance()->getOpenGLView()->setCursorVisible(false);
+    
+    customCursor->setOpacity(255);
+    customCursorIsDisplayed = true;
+    startCustomCursotAnimation();
+}
+
+void BattleScene::hideCustomCursor()
+{
+    Director::getInstance()->getOpenGLView()->setCursorVisible(true);
+    
+    customCursor->setOpacity(0);
+    customCursorIsDisplayed = false;
+    stopCustomCursorAnimation();
+}
+
+void BattleScene::startCustomCursotAnimation()
+{
+    auto moveUp = MoveBy::create(0.5, Point(0,7));
+    auto moveDown = MoveBy::create(0.75, Point(0,-10));
+    auto moveBack = MoveBy::create(0.25, Point(0,3));
+    auto seq = Sequence::create(moveUp, moveDown, moveBack, nullptr);
+    cursorAnimation = RepeatForever::create(seq);
+    
+    customCursor->runAction(cursorAnimation);
+}
+
+void BattleScene::stopCustomCursorAnimation()
+{
+    customCursor->stopAction(cursorAnimation);
 }
 
 void BattleScene::nextTurn()
@@ -661,5 +727,6 @@ void BattleScene::gameOver()
 
 void BattleScene::renderGameOverScene()
 {
+    Director::getInstance()->getOpenGLView()->setCursorVisible(true);
     Director::getInstance()->replaceScene(TransitionFade::create(1.0f, GameOverScene::createScene(), Color3B(0, 0, 0)));
 }

@@ -46,14 +46,14 @@ bool PlacingShipsScene::init()
     this->addChild(placeYourShipsLabel);
     
     //Menu button
-    menuButton = Sprite::create("Buttons/button_menu.png");
-    menuButton->setPosition(visibleSize.width - 150, visibleSize.height - 100);
+    menuButton = cocos2d::ui::Button::create("Buttons/default_state/button_menu_default.png", "Buttons/pressed_state/button_menu_pressed.png");
+    menuButton->setPosition(Vec2(visibleSize.width - 150, visibleSize.height - 100));
     menuButton->setScale(0.2);
     this->addChild(menuButton, 0);
     
     //Play button
-    playButton = Sprite::create("Buttons/button_play.png");
-    playButton->setPosition(visibleSize.width / 2, 100);
+    playButton = cocos2d::ui::Button::create("Buttons/default_state/button_play_default.png", "Buttons/pressed_state/button_play_pressed.png");
+    playButton->setPosition(Vec2(visibleSize.width / 2, 100));
     playButton->setScale(0.3);
     playButton->setOpacity(0);
     this->addChild(playButton, 0);
@@ -144,7 +144,6 @@ bool PlacingShipsScene::init()
         Sequence* seq = Sequence::create(delayBetweenSteps, startBattleFunc, NULL);
         this->runAction(seq);
     }
-    
     
     //Event listeners
     auto mouseClickListener = EventListenerMouse::create();

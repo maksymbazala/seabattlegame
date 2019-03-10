@@ -36,15 +36,15 @@ bool GameOverScene::init()
     battlefieldLabel->setTag(102);
     this->addChild(battlefieldLabel);
     
-    //Play button
-    newGameButton = Sprite::create("Buttons/button_new_game.png");
-    newGameButton->setPosition(visibleSize.width / 2 - 100, 100);
+    //New Game button
+    newGameButton = cocos2d::ui::Button::create("Buttons/default_state/button_newGame_default.png", "Buttons/pressed_state/button_newGame_pressed.png");
+    newGameButton->setPosition(Vec2(visibleSize.width / 2 - 100, 100));
     newGameButton->setScale(0.2);
     this->addChild(newGameButton, 0);
     
     //Exit button
-    exitButton = Sprite::create("Buttons/button_exit.png");
-    exitButton->setPosition(visibleSize.width / 2 + 100, 100);
+    exitButton = cocos2d::ui::Button::create("Buttons/default_state/button_exit_default.png", "Buttons/pressed_state/button_exit_pressed.png");
+    exitButton->setPosition(Vec2(visibleSize.width / 2 + 100, 100));
     exitButton->setScale(0.2);
     this->addChild(exitButton, 0);
     
