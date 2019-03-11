@@ -7,11 +7,6 @@
 * win10
 
 **MVP TBD list**
-\
-UI:
- * Add game icon
-
-CODE:
  * Make archives (installers)
 
 
