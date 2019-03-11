@@ -9,13 +9,9 @@
 **MVP TBD list**
 \
 UI:
- * Add custom cursor on Battle Field
- * Add shadows on ships sprites
- * Align font size on all buttons labels
- * Add sprites for pressed-state buttons
+ * Add game icon
 
 CODE:
- * Clean up code
  * Make archives (installers)
 
 
