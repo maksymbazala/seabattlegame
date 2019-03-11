@@ -1,10 +1,4 @@
 ﻿  precheader.cpp
-  AssetsManager.cpp
-  AssetsManagerEx.cpp
-  CCEventAssetsManagerEx.cpp
-  CCEventListenerAssetsManagerEx.cpp
-  Manifest.cpp
-d:\developing\seabattlegame\cocos2d\extensions\assets-manager\assetsmanagerex.cpp(1180): warning C4305: +=: усечение из "double" в "float"
   CCControl.cpp
   CCControlButton.cpp
   CCControlColourPicker.cpp
@@ -84,10 +78,10 @@ d:\developing\seabattlegame\cocos2d\extensions\assets-manager\assetsmanagerex.cp
   CCPUJetAffectorTranslator.cpp
   CCPULineAffector.cpp
   CCPULineAffectorTranslator.cpp
-  CCPULinearForceAffector.cpp
-  CCPULinearForceAffectorTranslator.cpp
   CCPULineEmitter.cpp
   CCPULineEmitterTranslator.cpp
+  CCPULinearForceAffector.cpp
+  CCPULinearForceAffectorTranslator.cpp
   CCPUListener.cpp
   CCPUMaterialManager.cpp
   CCPUMaterialTranslator.cpp
@@ -170,11 +164,17 @@ d:\developing\seabattlegame\cocos2d\extensions\assets-manager\assetsmanagerex.cp
   CCPUVertexEmitter.cpp
   CCPUVortexAffector.cpp
   CCPUVortexAffectorTranslator.cpp
+  AssetsManager.cpp
+  AssetsManagerEx.cpp
+  CCEventAssetsManagerEx.cpp
+  CCEventListenerAssetsManagerEx.cpp
+  Manifest.cpp
+d:\developing\seabattlegame\cocos2d\extensions\assets-manager\assetsmanagerex.cpp(1180): warning C4305: +=: усечение из "double" в "float"
   CCPhysicsDebugNode.cpp
   CCPhysicsSprite.cpp
-  clipper.cpp
   ConvertUTF.c
   ConvertUTFWrapper.cpp
+  clipper.cpp
   edtaa3func.cpp
   idl_gen_cpp.cpp
   idl_gen_fbs.cpp
@@ -189,12 +189,12 @@ d:\developing\seabattlegame\cocos2d\extensions\assets-manager\assetsmanagerex.cp
   sweep.cc
   sweep_context.cc
   tinyxml2.cpp
-  ioapi_mem.cpp
   ioapi.cpp
+  ioapi_mem.cpp
   unzip.cpp
   xxhash.c
-d:\developing\seabattlegame\cocos2d\external\xxhash\xxhash.c(312): warning C4804: /: небезопасное использование типа "bool" в операции
   CCAABB.cpp
+d:\developing\seabattlegame\cocos2d\external\xxhash\xxhash.c(312): warning C4804: /: небезопасное использование типа "bool" в операции
   CCAnimate3D.cpp
   CCAnimation3D.cpp
   CCAttachNode.cpp
@@ -225,18 +225,12 @@ d:\developing\seabattlegame\cocos2d\external\xxhash\xxhash.c(312): warning C4804
   AudioPlayer.cpp
   MciPlayer.cpp
   SimpleAudioEngine.cpp
-  CCAllocatorDiagnostics.cpp
-  CCAllocatorGlobal.cpp
-  CCAllocatorGlobalNewDelete.cpp
-  atitc.cpp
-  base64.cpp
   CCAsyncTaskPool.cpp
   CCAutoreleasePool.cpp
-  ccCArray.cpp
   CCConfiguration.cpp
   CCConsole.cpp
-  CCController.cpp
   CCController-linux-win32.cpp
+  CCController.cpp
   CCData.cpp
   CCDataVisitor.cpp
   CCDirector.cpp
@@ -257,29 +251,35 @@ d:\developing\seabattlegame\cocos2d\external\xxhash\xxhash.c(312): warning C4804
   CCEventListenerTouch.cpp
   CCEventMouse.cpp
   CCEventTouch.cpp
-  ccFPSImages.c
   CCIMEDispatcher.cpp
-  CCNinePatchImageParser.cpp
-  CCStencilStateManager.cpp
   CCNS.cpp
+  CCNinePatchImageParser.cpp
   CCProfiling.cpp
   CCProperties.cpp
-  ccRandom.cpp
   CCRef.cpp
   CCScheduler.cpp
   CCScriptSupport.cpp
+  CCStencilStateManager.cpp
   CCTouch.cpp
-  ccTypes.cpp
   CCUserDefault.cpp
-  ccUTF8.cpp
-  ccUtils.cpp
   CCValue.cpp
-  etc1.cpp
-  pvr.cpp
   ObjectFactory.cpp
-  s3tc.cpp
   TGAlib.cpp
   ZipUtils.cpp
+  CCAllocatorDiagnostics.cpp
+  CCAllocatorGlobal.cpp
+  CCAllocatorGlobalNewDelete.cpp
+  atitc.cpp
+  base64.cpp
+  ccCArray.cpp
+  ccFPSImages.c
+  ccRandom.cpp
+  ccTypes.cpp
+  ccUTF8.cpp
+  ccUtils.cpp
+  etc1.cpp
+  pvr.cpp
+  s3tc.cpp
   cocos2d.cpp
   CCArray.cpp
   CCDeprecated.cpp
@@ -311,6 +311,7 @@ d:\developing\seabattlegame\cocos2d\external\xxhash\xxhash.c(312): warning C4804
   CCSpriteLoader.cpp
   CCActionTimeline.cpp
   CCActionTimelineCache.cpp
+  CCActionTimelineNode.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -321,7 +322,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
-  CCActionTimelineNode.cpp
   CCBoneNode.cpp
   CCFrame.cpp
   CCSkeletonNode.cpp
@@ -333,6 +333,8 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
   CCActionManagerEx.cpp
   CCActionNode.cpp
   CCActionObject.cpp
+  CCArmature.cpp
+  CCArmatureAnimation.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -343,8 +345,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
-  CCArmature.cpp
-  CCArmatureAnimation.cpp
   CCArmatureDataManager.cpp
   CCArmatureDefine.cpp
   CCBatchNode.cpp
@@ -353,6 +353,7 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
   CCComAttribute.cpp
   CCComAudio.cpp
   CCComController.cpp
+  CCComExtensionData.cpp
   CCComRender.cpp
   CCDataReaderHelper.cpp
   CCDatas.cpp
@@ -360,12 +361,11 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
   CCDisplayFactory.cpp
   CCDisplayManager.cpp
   CCInputDelegate.cpp
-  CCComExtensionData.cpp
   CCProcessBase.cpp
   CCSGUIReader.cpp
+  CCSSceneReader.cpp
   CCSkin.cpp
   CCSpriteFrameCacheHelper.cpp
-  CCSSceneReader.cpp
   CCTransformHelp.cpp
   CCTween.cpp
   CCUtilMath.cpp
@@ -373,6 +373,8 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
   CocoStudio.cpp
   DictionaryHelper.cpp
   FlatBuffersSerialize.cpp
+  LocalizationManager.cpp
+  TriggerBase.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -383,8 +385,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
-  LocalizationManager.cpp
-  TriggerBase.cpp
   TriggerMng.cpp
   TriggerObj.cpp
   WidgetCallBackHandlerProtocol.cpp
@@ -411,7 +411,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
   CheckBoxReader.cpp
-  ComAudioReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -422,6 +421,7 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+  ComAudioReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -433,28 +433,28 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
   GameMapReader.cpp
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
   GameNode3DReader.cpp
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
   ImageViewReader.cpp
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
   LayoutReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
@@ -471,12 +471,12 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-  Light3DReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+  Light3DReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -488,42 +488,63 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
   ListViewReader.cpp
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
   LoadingBarReader.cpp
+  Node3DReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
               T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
               T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
   NodeReaderDefine.cpp
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
   NodeReaderProtocol.cpp
   NodeReader.cpp
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
   PageViewReader.cpp
-  ParticleReader.cpp
+  Particle3DReader.cpp
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -534,6 +555,7 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+  ParticleReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -567,7 +589,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
-  BoneNodeReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -578,6 +599,7 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+  BoneNodeReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -589,7 +611,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
   SkeletonNodeReader.cpp
-  SliderReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -600,6 +621,28 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+  SliderReader.cpp
+  Sprite3DReader.cpp
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
   SpriteReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
@@ -611,16 +654,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
   TabControlReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
@@ -666,7 +699,6 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
-  Node3DReader.cpp
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -677,29 +709,7 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-  Sprite3DReader.cpp
   UserCameraReader.cpp
-  Particle3DReader.cpp
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
 d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
           with
           [
@@ -710,34 +720,24 @@ d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinar
           [
               T=float
           ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
   WidgetReader.cpp
   CCAffineTransform.cpp
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
-d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
-          with
-          [
-              T=float
-          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
   CCGeometry.cpp
   CCVertex.cpp
   Mat4.cpp
   MathUtil.cpp
   Quaternion.cpp
   TransformUtils.cpp
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+d:\developing\seabattlegame\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ] (компилируется исходный файл ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
   Vec2.cpp
   Vec3.cpp
   Vec4.cpp
@@ -784,6 +784,7 @@ d:\developing\seabattlegame\cocos2d\cocos\platform\ccsaxparser.cpp(169): warning
   CCGLProgram.cpp
   CCGLProgramCache.cpp
   CCGLProgramState.cpp
+  CCGLProgramStateCache.cpp
 d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(914): warning C4996: 'cocos2d::UniformValue::setTexture': объявлен deprecate
   d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note:  см. объявление "cocos2d::UniformValue::setTexture"
 d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(918): warning C4996: 'cocos2d::UniformValue::setTexture': объявлен deprecate
@@ -792,8 +793,6 @@ d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(935): wa
   d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note:  см. объявление "cocos2d::UniformValue::setTexture"
 d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(939): warning C4996: 'cocos2d::UniformValue::setTexture': объявлен deprecate
   d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note:  см. объявление "cocos2d::UniformValue::setTexture"
-  CCGLProgramStateCache.cpp
-  ccGLStateCache.cpp
   CCGroupCommand.cpp
   CCMaterial.cpp
   CCMeshCommand.cpp
@@ -802,9 +801,8 @@ d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(939): wa
   CCPrimitiveCommand.cpp
   CCQuadCommand.cpp
   CCRenderCommand.cpp
-  CCRenderer.cpp
   CCRenderState.cpp
-  ccShaders.cpp
+  CCRenderer.cpp
   CCTechnique.cpp
   CCTexture2D.cpp
   CCTextureAtlas.cpp
@@ -814,15 +812,16 @@ d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(939): wa
   CCVertexAttribBinding.cpp
   CCVertexIndexBuffer.cpp
   CCVertexIndexData.cpp
+  ccGLStateCache.cpp
+  ccShaders.cpp
   LocalStorage.cpp
   CocosGUI.cpp
-  UIButton.cpp
   UIAbstractCheckButton.cpp
+  UIButton.cpp
   UICheckBox.cpp
-  UIEditBoxImpl-common.cpp
-  UIRadioButton.cpp
   UIDeprecated.cpp
   UIEditBox.cpp
+  UIEditBoxImpl-common.cpp
   UIEditBoxImpl-win32.cpp
   UIHBox.cpp
   UIHelper.cpp
@@ -835,6 +834,7 @@ d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(939): wa
   UILoadingBar.cpp
   UIPageView.cpp
   UIPageViewIndicator.cpp
+  UIRadioButton.cpp
   UIRelativeBox.cpp
   UIRichText.cpp
   UIScale9Sprite.cpp
@@ -876,8 +876,8 @@ d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(939): wa
   CCClippingRectangleNode.cpp
   CCComponent.cpp
   CCComponentContainer.cpp
-  CCDrawingPrimitives.cpp
   CCDrawNode.cpp
+  CCDrawingPrimitives.cpp
   CCFastTMXLayer.cpp
   CCFastTMXTiledMap.cpp
   CCFontAtlas.cpp
@@ -891,8 +891,8 @@ d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(939): wa
   CCLabel.cpp
   CCLabelAtlas.cpp
   CCLabelBMFont.cpp
-  CCLabelTextFormatter.cpp
   CCLabelTTF.cpp
+  CCLabelTextFormatter.cpp
   CCLayer.cpp
   CCLight.cpp
   CCMenu.cpp
@@ -913,12 +913,12 @@ d:\developing\seabattlegame\cocos2d\cocos\renderer\ccglprogramstate.cpp(939): wa
   CCSpriteBatchNode.cpp
   CCSpriteFrame.cpp
   CCSpriteFrameCache.cpp
-  CCTextFieldTTF.cpp
-  CCTileMapAtlas.cpp
   CCTMXLayer.cpp
   CCTMXObjectGroup.cpp
   CCTMXTiledMap.cpp
   CCTMXXMLParser.cpp
+  CCTextFieldTTF.cpp
+  CCTileMapAtlas.cpp
   CCTransition.cpp
   CCTransitionPageTurn.cpp
   CCTransitionProgress.cpp
