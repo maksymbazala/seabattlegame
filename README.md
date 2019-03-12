@@ -8,7 +8,7 @@
 * Download and install the latest stable Cocos2d-x game engine [version](https://cocos2d-x.org/download)
 * Download and install tools: [Android SDK](https://developer.android.com/sdk/index.html), [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html), [ANT](https://ant.apache.org/)
 * Add global variables to `$PATH`
-* Git clone https://github.com/maksymbazala/seabattlegame.git
+* Git clone https://github.com/maksymbazala/seabattlegame.git (note that [git-lfs](https://git-lfs.github.com/) extension is used!)
 
 ## Cocos Console
 Run next commands in project directory:
