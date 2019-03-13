@@ -21,9 +21,9 @@ Run next commands in project directory:
 * win10
 <br />
 
-> Developed by Maksym Bazala.
+> Developed by Maksym Bazala
 \
-> Sprites by Anna Panich.
+> Sprites by Anna Panich
 <br />
 
 *No commercial purposes, just for fun and with love.*
