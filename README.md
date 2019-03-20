@@ -14,7 +14,7 @@
 #### Battle field
 
 ![BattleField](game_screenshots/BattleField_Scene.png)
-#### Victory field
+#### Victory
 
 ![Victory](game_screenshots/Victory_Scene.png)
   
