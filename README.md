@@ -1,6 +1,26 @@
 # Welcome to my "Sea Battle" game!
 <br />
 
+## Game screenshots
+<details>
+  <summary>Expand me</summary>
+  
+#### Logo
+
+![Logotype](game_screenshots/Logo_Scene.png)
+#### Placing ships
+
+![PlacingShips](game_screenshots/PlacingShips_Scene.png)
+#### Battle field
+
+![BattleField](game_screenshots/BattleField_Scene.png)
+#### Victory field
+
+![Victory](game_screenshots/Victory_Scene.png)
+  
+</details>
+
+
 ## Installers
 * Please find installers for supported platforms in folder /installers/
 
